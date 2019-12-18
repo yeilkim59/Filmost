@@ -1,5 +1,5 @@
 # Filmost
-movie/
+movie/#
 info.csv: Movieinfo결과 파일.
 mov_data.csv: Movie_Data 결과 파일.
 Movie_Data.py: wbo와 info를 동일한 영화에 대해서 결합
