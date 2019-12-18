@@ -1,14 +1,14 @@
 # Filmost
 # movie/
 
-#info.csv: Movieinfo결과 파일.
+info.csv: Movieinfo결과 파일. 
 mov_data.csv: Movie_Data 결과 파일.
 Movie_Data.py: wbo와 info를 동일한 영화에 대해서 결합
 Movieinfo.py: KOFIC API를 이용하여 영화상세정보에 대해 크롤링
 wbo.csv:WeeklyBoxOffice결과 파일
 WeeklyBoxOffice.py: KOFIC API를 이용하여 주간박스오피스에 대해 크롤링
 
-ost/
+# ost/
 2018chart.csv: Chart2018의 결과 파일
 Chart2018.py: 멜론에서 2018년 OST 주간차트 크롤링
 chart2019.csv: Chart2019의 결과 파일
@@ -18,7 +18,7 @@ ostChart2018.csv: 2018chart.csv에서 영화 OST외의 데이터 제거 결과 �
 ostChart2019.csv:chart2019.csv에서 영화 OST외의 데이터 제거 결과 파일.
 ResultOfChart.py: 2018chart.csv와 chart2019.csv에서 영화 OST외의 데이터 제거 및 결합.
 
-시각화/
+# 시각화/
 all차트인: 박스오피스에도 오르고 차트인도 했던 영화당 차트인 했던 주수.
 all.py: 박스오피스에도 오르고 차트인도 헀던 영화를 골라내고 그에 대한 누적관객수와 영화별로 차트인한 주수를 구함.
 all_chartIn.csv: mov_data에서 박스오피스에도 오르고 차트인도 했던 영화들에 대한 데이터.
