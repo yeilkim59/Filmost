@@ -2,16 +2,16 @@
 ## movie/
 
 ### info.csv: Movieinfo결과 파일. 
-mov_data.csv: Movie_Data 결과 파일.
-Movie_Data.py: wbo와 info를 동일한 영화에 대해서 결합
-Movieinfo.py: KOFIC API를 이용하여 영화상세정보에 대해 크롤링
-wbo.csv:WeeklyBoxOffice결과 파일
-WeeklyBoxOffice.py: KOFIC API를 이용하여 주간박스오피스에 대해 크롤링
+### mov_data.csv: Movie_Data 결과 파일.
+### Movie_Data.py: wbo와 info를 동일한 영화에 대해서 결합
+### Movieinfo.py: KOFIC API를 이용하여 영화상세정보에 대해 크롤링
+### wbo.csv:WeeklyBoxOffice결과 파일
+### WeeklyBoxOffice.py: KOFIC API를 이용하여 주간박스오피스에 대해 크롤링
 
 ## ost/
-2018chart.csv: Chart2018의 결과 파일
-Chart2018.py: 멜론에서 2018년 OST 주간차트 크롤링
-chart2019.csv: Chart2019의 결과 파일
+### 2018chart.csv: Chart2018의 결과 파일
+### Chart2018.py: 멜론에서 2018년 OST 주간차트 크롤링
+### chart2019.csv: Chart2019의 결과 파일
 Chart2019.py: 멜론에서 2019년 OST 주간차트 크롤링
 ostChart.csv:  ostChart2018와 ostChart2019 결합 파일.
 ostChart2018.csv: 2018chart.csv에서 영화 OST외의 데이터 제거 결과 파일.
