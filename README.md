@@ -1,7 +1,7 @@
 # Filmost
-movie/
-#
-info.csv: Movieinfo결과 파일.
+# movie/
+
+#info.csv: Movieinfo결과 파일.
 mov_data.csv: Movie_Data 결과 파일.
 Movie_Data.py: wbo와 info를 동일한 영화에 대해서 결합
 Movieinfo.py: KOFIC API를 이용하여 영화상세정보에 대해 크롤링
